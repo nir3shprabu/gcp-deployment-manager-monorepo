@@ -1,3 +1,3 @@
 # gcp-deployment-manager-monorepo
 
-This repo contains a deployment manager template to deploy application on GCP
+This repository contains templates for use with GCPs Deployment Manager that I wrote for various applications of interest.

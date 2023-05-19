@@ -4,7 +4,7 @@ resources:
   name: vm-test
   properties:
     zone: {{ properties["zone"] }}
-    machineType: https://www.googleapis.com/compute/v1/projects/hale-boulevard-382706/zones/{{ properties["zone"] }}/machineTypes/e2-micro
+    machineType: https://www.googleapis.com/compute/v1/projects/hazel-aria-386807/zones/{{ properties["zone"] }}/machineTypes/e2-small
     #   https://cloud.google.com/compute/docs/startupscript
     disks:
     - deviceName: boot
@@ -14,21 +14,28 @@ resources:
       initializeParams:
         sourceImage: https://www.googleapis.com/compute/v1/projects/debian-cloud/global/images/family/debian-11
     networkInterfaces:
-    - network: https://www.googleapis.com/compute/v1/projects/hale-boulevard-382706/global/networks/default      # Access Config required to give the instance a public IP address
+    - network: https://www.googleapis.com/compute/v1/projects/hazel-aria-386807/global/networks/default      # Access Config required to give the instance a public IP address
       accessConfigs:
       - name: External NAT
         type: ONE_TO_ONE_NAT
-  
     tags:
-      items: ["http-server"]
+      items: ["http-server", "https-server"]
+    metadata:
+      items:
+      {% for key, value in properties['metadata-from-file'].items() %}
+      - key: {{ key }}
+        value: |
+          {{ imports[value]|indent(10) }}
+    {% endfor %}
+
 - type: compute.v1.firewall
-  name: default-allow-http
+  name: default-allow-http-https
   properties:
-    targetTags: ["http-server"]
+    targetTags: ["http-server", "https-server"]
     sourceRanges: ["0.0.0.0/0"]
     allowed:
       - IPProtocol: TCP
-        ports: ["80"]
+        ports: ["80", "443"]
     serviceAccounts:
       - email: default
         scopes:

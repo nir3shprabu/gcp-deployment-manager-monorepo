@@ -14,9 +14,13 @@
 
 imports:
 - path: sympl.jinja
+- path: ./install-sympl.sh
+  name: install-sympl.sh
 
 resources:
 - name: sympl
   type: sympl.jinja
   properties:
+    metadata-from-file:
+      startup-script: install-sympl.sh
     zone: us-central1-a

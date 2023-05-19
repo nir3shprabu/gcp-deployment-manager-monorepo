@@ -1,12 +1,15 @@
 ### Todo
 
-- [ ] The sympl installation and post installation steps should be done through metdata
+- [ ] The sympl installation should be done through metadata
+- [ ] The post installation of sympl yet to be done
 
 ### In Progress  
 
-- [ ] The sympl installation and post installation steps should be done through metdata
+- [ ] The sympl installation should be done through metadata
+- [ ] The post installation of sympl yet to be done
 
 
 ### Done ✓  
 
-- [ ] The sympl installation and post installation steps should be done through metdata
+- [X] The sympl installation should be done through metadata
+- [ ] The post installation of sympl yet to be done

@@ -1,6 +1,6 @@
 info:
-  title: Deploy a Simple VM
-  author: qwiklabs@google.com
+  title: Deploy a Sympl application inside VM
+  author: Niresh Prabu
 
 required:
   - zone

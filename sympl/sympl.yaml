@@ -10,3 +10,5 @@ resources:
     metadata-from-file:
       startup-script: install-sympl.sh
     zone: us-central1-a
+    project: hazel-aria-386807
+    machinetype: e2-small 

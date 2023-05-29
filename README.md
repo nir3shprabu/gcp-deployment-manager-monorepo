@@ -23,7 +23,7 @@ These instructions will guide you through the process of deploying resources usi
 2. Navigate to the repository directory:
 
    ```bash
-   cd gcp-deployment-manager
+   cd gcp-deployment-manager-monorepo/sympl
    ```
 
 3. Modify the config.yaml file to customize your deployment. Update the project ID, region, instance type, etc., as needed.

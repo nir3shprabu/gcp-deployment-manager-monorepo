@@ -11,31 +11,34 @@ These instructions will guide you through the process of deploying resources usi
 - Access to a GCP project
 - `gcloud` command-line tool installed and authenticated
 
+## Before you start
+- Edit the gcp-deployment-manager-monorepo/sympl/sympl.yaml. Modify the sympl.yaml file to customize your deployment. Update the project ID, region, instance type, etc., as needed.
+
+    ```sh
+  properties:
+      metadata-from-file:
+        startup-script: install-sympl.sh
+      zone: us-central1-a
+      project: <project-id>
+      machinetype: e2-small 
+    ```
+
 ### Deployment Steps
 
-1. Clone the repository:
-
-   ```bash
-   git clone https://github.com/nir3shprabu/gcp-deployment-manager-monorepo.git
-   ```
-
-
-2. Navigate to the repository directory:
+1. Navigate to the repository directory:
 
    ```bash
    cd gcp-deployment-manager-monorepo/sympl
    ```
 
-3. Modify the config.yaml file to customize your deployment. Update the project ID, region, instance type, etc., as needed.
-
-4. Deploy the resources using Deployment Manager:
+2. Deploy the resources using Deployment Manager:
 
    ```bash
    gcloud deployment-manager deployments create my-deployment --config=sympl.yaml
    ```
    Replace my-deployment with your desired deployment name.
 
-5. Monitor the deployment progress in the console or using the following command:
+3. Monitor the deployment progress in the console or using the following command:
 
    ```bash
    gcloud deployment-manager deployments describe my-deployment

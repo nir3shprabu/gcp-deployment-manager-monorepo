@@ -25,7 +25,6 @@ module.exports = {
       {
         assets: ['CHANGELOG.md', 'package.json'], // Add more files if necessary
         message: 'chore(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
-        tagFormat: 'sympl-v${version}', // Add a prefix to the version tag
       },
     ],
     '@semantic-release/github',

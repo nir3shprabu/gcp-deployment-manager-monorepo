@@ -1,3 +1,10 @@
+# [1.4.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.3.0...v1.4.0) (2023-06-02)
+
+
+### Features
+
+* Implemented application name into release version tags ([adea4aa](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/adea4aa77a2c52e4937586775b264bd77a6d4634))
+
 # [1.3.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.2.0...v1.3.0) (2023-06-02)
 
 

@@ -24,7 +24,7 @@ module.exports = {
       '@semantic-release/git',
       {
         assets: ['CHANGELOG.md', 'package.json'], // Add more files if necessary
-        message: 'feat(release): ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}',
+        message: 'sympl(release): ${nextRelease.version}\n\n${nextRelease.notes}',
       },
     ],
     '@semantic-release/github',

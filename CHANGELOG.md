@@ -1,3 +1,10 @@
+# [1.8.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.7.0...v1.8.0) (2023-06-02)
+
+
+### Features
+
+* Added release.config.js to produce release with name tag ([0f6f001](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/0f6f00177c8231b276c0933b6a69829193a6af54))
+
 # [1.6.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.5.0...v1.6.0) (2023-06-02)
 
 

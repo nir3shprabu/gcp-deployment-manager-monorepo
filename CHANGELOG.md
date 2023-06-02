@@ -1,3 +1,11 @@
+# [1.9.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.8.0...v1.9.0) (2023-06-02)
+
+
+### Features
+
+* Added tag format to produce name version release tag ([917e1e9](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/917e1e913605d9646085cd255cbca51f955b2b6f))
+* Added tagformat to produce version tags ([6653dcd](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/6653dcd93803382d5a71655ae28ccb8d2e3618f0))
+
 # [1.8.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.7.0...v1.8.0) (2023-06-02)
 
 

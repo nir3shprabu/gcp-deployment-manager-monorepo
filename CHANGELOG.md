@@ -1,3 +1,15 @@
+# [1.6.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.5.0...v1.6.0) (2023-06-02)
+
+
+### Bug Fixes
+
+* Remove skipci from .releaserc.json ([e28aa7f](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/e28aa7f3d3c9caf9e94c3b4c1411528735366066))
+
+
+### Features
+
+* Implement the dependencies install in the workflow ([cc8b686](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/cc8b686cd262507d563cfbf6d4b26a1e3cf8c972))
+
 # [1.5.0](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/v1.4.0...v1.5.0) (2023-06-02)
 
 

@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/compare/sympl-v1.0.0...sympl-v1.0.1) (2023-06-02)
+
+
+### Bug Fixes
+
+* Reverted node_modules, cleared the unwanted ([1e4a264](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/1e4a264708926ff278e6e7eefb3e8c4fcfc037dd))
+* Reverted node_modules, cleared the unwanted ([d1bd31a](https://github.com/nir3shprabu/gcp-deployment-manager-monorepo/commit/d1bd31a72f63b371c0b70e1851fb8123d61ae66f))
+
 # 1.0.0 (2023-06-02)
 
 

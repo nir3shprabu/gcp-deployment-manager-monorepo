@@ -1,6 +1,6 @@
 # gcp-dm-sympl
 
-This repository contains templates for use with GCPs Deployment Manager that I wrote for various applications of interest.
+This repository contains a Deployment Manager template for deploying `sympl` on Google Cloud Platform (GCP)
 
 ## Getting Started
 
@@ -34,14 +34,13 @@ These instructions will guide you through the process of deploying resources usi
 2. Deploy the resources using Deployment Manager:
 
    ```bash
-   gcloud deployment-manager deployments create my-deployment --config=sympl.yaml
+   gcloud deployment-manager deployments create sympl-bullseye --config=sympl.yaml
    ```
-   Replace my-deployment with your desired deployment name.
 
 3. Monitor the deployment progress in the console or using the following command:
 
    ```bash
-   gcloud deployment-manager deployments describe my-deployment
+   gcloud deployment-manager deployments describe sympl-bullseye
    ```
 
 ## Contributing

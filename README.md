@@ -1,4 +1,4 @@
-# gcp-deployment-manager-monorepo
+# gcp-dm-sympl
 
 This repository contains templates for use with GCPs Deployment Manager that I wrote for various applications of interest.
 
@@ -12,7 +12,7 @@ These instructions will guide you through the process of deploying resources usi
 - `gcloud` command-line tool installed and authenticated
 
 ## Before you start
-- Edit the gcp-deployment-manager-monorepo/sympl/sympl.yaml. Modify the sympl.yaml file to customize your deployment. Update the project ID, region, instance type, etc., as needed.
+- Edit the gcp-dm-sympl/sympl/sympl.yaml. Modify the sympl.yaml file to customize your deployment. Update the project ID, region, instance type, etc., as needed.
 
     ```sh
   properties:
@@ -28,7 +28,7 @@ These instructions will guide you through the process of deploying resources usi
 1. Navigate to the repository directory:
 
    ```bash
-   cd gcp-deployment-manager-monorepo/sympl
+   cd gcp-dm-sympl/sympl
    ```
 
 2. Deploy the resources using Deployment Manager:
